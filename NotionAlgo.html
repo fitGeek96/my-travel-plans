@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8">
+            <title> Premier contact avec HTML5 </title>
+			<meta name="description" content="ma description ..."/>
+	    </head>
+<body> 
+    <header style="background-color:red ; color:white">
+	  <h1 align="center">Notion d'Algorithmique</h1>
+	</header>
+<div style="background-color:#87CEEB;" align="left">
+<p><h2>Définition</h2></p>
+</div>
+<small><p>Un algorithme est une spécification formelle de la solution d'un probleme donné. Il s'agit d'un ensemble d'étapes finies à suivre pour obtenir un résultat ou répondre à une question abstraite "automatiquement" 
+Lorsque cet algorithme est implémenté selon une syntaxe d'un langage de programmation (<i>C++,Java,...</i>), on parle donc de <b>programme.</b></p></small>
+<div style="background-color:#87CEEB;" align="left">
+<p><h2>Exemple d'un algorithme</h2></p>
+</div>
+<p><small><b><u>Problème:</u></b> Rechercher un élément dans un tableau d'entiers trié.</small></p>
+ <details>
+		   
+			<summary><b>Voir l'algorithme:</b></summary>
+			<dt><small><b>Entrée:</b></small></dt>
+			                    <dd><small>Un tableau <b>A</b> d'entiers, de taille <b>T</b>, trié en ordre croissant, et un élément <b>E</b>.</small></dd>
+			<dt><small><b>Sortie:</b></small></dt>
+			                    <dd><small><b>Oui</b> si E appartient à A, et <b>Non</b> sinon.</small></dd><br>
+			<dt><small><b>Debut</b>:= 1; <b>Fin</b> :=<b>T</b></b></small></dt>
+			<dt><small>Tant que <b>Debut</b> <= <b>Fin</b> </small></dt> 
+                                <dd><small><b>Milieu</b> := (<b>Debut</b>+<b>Fin</b>)/2;</small></dd>
+								<dd><small>Si <b>A[Milieu]</b> = <b>E</b> alors;</small></dd>
+								<dd><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Retourner Oui;</b></small></dd>
+								<dd><small>Sinon si <b>A[Milieu]</b>< <b>E</b> alors;</small></dd>
+								<dd><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Debut</b> := <b>Milieu</b>+1;</b></small></dd>
+								<dd><small>Sinon:</small></dd>
+								<dd><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Fin</b> := <b>Milieu</b>-1;</small></dd>
+								<dd><small><b>Fin Si</small></dd>
+			<dt><small>Fin Tant-que</small></dt>
+            <dt><small><b>Retourner Non;</b></small></dt>			
+		</details>
+</body>
+</html>
